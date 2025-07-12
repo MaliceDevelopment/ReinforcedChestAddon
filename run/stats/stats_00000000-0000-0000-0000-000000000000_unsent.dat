@@ -1,0 +1,18 @@
+{
+  "user":{
+    "uuid":"00000000-0000-0000-0000-000000000000",
+    "sessionid":"local"
+  },
+  "stats-change":[
+    {"minecraft:achievement/open_guidebook":1},
+    {"minecraft:load_world":3},
+    {"minecraft:leave_game":2},
+    {"minecraft:playtime":2295},
+    {"minecraft:create_world":1},
+    {"minecraft:start_game":4},
+    {"minecraft:travel_walk":1116},
+    {"reinforcedchest:block/reinforced_chest_stat_used":2},
+    {"minecraft:achievement/open_inventory":4}
+  ],
+  "checksum":"aeda9ad87e680baceb2f93b28a49847e"
+}
