@@ -66,6 +66,16 @@ public class ModModels implements ModelEntrypoint {
                         .setTex(0, MOD_ID+":block/steelcupboardside", Side.WEST)
 
         );
+        ModelHelper.setBlockModel(ModBlocks.crystalChest,() ->
+                new BlockModelHorizontalRotation<>(ModBlocks.crystalChest)
+                        .setTex(0, "ironchest:block/ironchesttop", Side.TOP)
+                        .setTex(0, "ironchest:block/steelchestbottom", Side.BOTTOM)
+                        .setTex(0, "ironchest:block/steelchestfront", Side.NORTH)
+                        .setTex(0, "ironchest:block/steelchestside", Side.SOUTH)
+                        .setTex(0, "ironchest:block/steelchestside", Side.EAST)
+                        .setTex(0, "ironchest:block/steelchestside", Side.WEST)
+
+        );
     }
 
     @Override

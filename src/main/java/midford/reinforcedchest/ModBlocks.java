@@ -1,6 +1,8 @@
 package midford.reinforcedchest;
 
 import midford.reinforcedchest.blocks.*;
+import midford.reinforcedchest.blocks.CrystalChest;
+import midford.reinforcedchest.blocks.ReinforcedChest;
 import net.minecraft.core.block.Block;
 import net.minecraft.core.block.material.Material;
 import net.minecraft.core.block.tag.BlockTags;
@@ -17,6 +19,7 @@ public class ModBlocks implements BlockInitEntrypoint {
     public static Block<?> goldCupboard;
     public static Block<?> diamondCupboard;
     public static Block<?> steelCupboard;
+    public static Block<?> crystalChest;
 
     @Override
     public void afterBlockInit() {
@@ -50,5 +53,13 @@ public class ModBlocks implements BlockInitEntrypoint {
                 .setTags(BlockTags.MINEABLE_BY_PICKAXE)
                 .build("cupboard.steel", "steel_cupboard", config.getInt("ids.steelCupboardID"),
                         (block) -> new SteelCupboard(block, Material.metal));
+
+        crystalChest = new BlockBuilder(MOD_ID)
+                .setBlockSound(BlockSounds.METAL)
+                .setHardness(2.5f)
+                .setTags(BlockTags.MINEABLE_BY_PICKAXE)
+                .build("chest.crystal", "crystal_chest", config.getInt("ids.crystalChestID"),
+                        (block) -> new CrystalChest(block, Material.metal));
     }
+
 }
