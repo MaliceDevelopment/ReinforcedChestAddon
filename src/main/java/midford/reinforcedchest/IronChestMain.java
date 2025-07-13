@@ -45,6 +45,6 @@ public class IronChestMain implements GameStartEntrypoint {
             throw new RuntimeException(e);
         }
 
-        LOGGER.info("ReinforcedChest initialized.");
+        LOGGER.info("ExtendedChests initialized.");
     }
 }
