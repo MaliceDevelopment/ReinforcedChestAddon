@@ -21,6 +21,7 @@ public class MixinNetClientHandler {
 
     @Inject(method = "handleOpenWindow", at = @At("TAIL"))
     public void injectMethod(PacketContainerOpen packet100openwindow, CallbackInfo info) {
+        System.out.println(packet100openwindow.inventoryType);
         if (packet100openwindow.inventoryType == IronChestMain.config.getInt("ids.reinforcedWindowID")) {
             TileEntityReinforcedChest rchest = new TileEntityReinforcedChest();
             ((IEntityPlayer)this.mc.thePlayer).reinforcedchest$displayGUIReinforcedChest(rchest);

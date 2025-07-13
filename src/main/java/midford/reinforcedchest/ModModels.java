@@ -26,6 +26,46 @@ public class ModModels implements ModelEntrypoint {
                         .setTex(0, "ironchest:block/steelchestside", Side.WEST)
 
         );
+        ModelHelper.setBlockModel(ModBlocks.ironCupboard,() ->
+                new BlockModelHorizontalRotation<>(ModBlocks.ironCupboard)
+                        .setTex(0, MOD_ID+":block/ironcupboardside", Side.TOP)
+                        .setTex(0, MOD_ID+":block/ironcupboardside", Side.BOTTOM)
+                        .setTex(0, MOD_ID+":block/ironcupboardfront", Side.NORTH)
+                        .setTex(0, MOD_ID+":block/ironcupboardside", Side.SOUTH)
+                        .setTex(0, MOD_ID+":block/ironcupboardside", Side.EAST)
+                        .setTex(0, MOD_ID+":block/ironcupboardside", Side.WEST)
+
+        );
+        ModelHelper.setBlockModel(ModBlocks.goldCupboard,() ->
+                new BlockModelHorizontalRotation<>(ModBlocks.goldCupboard)
+                        .setTex(0, MOD_ID+":block/goldcupboardside", Side.TOP)
+                        .setTex(0, MOD_ID+":block/goldcupboardside", Side.BOTTOM)
+                        .setTex(0, MOD_ID+":block/goldcupboardfront", Side.NORTH)
+                        .setTex(0, MOD_ID+":block/goldcupboardside", Side.SOUTH)
+                        .setTex(0, MOD_ID+":block/goldcupboardside", Side.EAST)
+                        .setTex(0, MOD_ID+":block/goldcupboardside", Side.WEST)
+
+        );
+        ModelHelper.setBlockModel(ModBlocks.diamondCupboard,() ->
+                new BlockModelHorizontalRotation<>(ModBlocks.diamondCupboard)
+                        .setTex(0, MOD_ID+":block/diamondcupboardside", Side.TOP)
+                        .setTex(0, MOD_ID+":block/diamondcupboardside", Side.BOTTOM)
+                        .setTex(0, MOD_ID+":block/diamondcupboardfront", Side.NORTH)
+                        .setTex(0, MOD_ID+":block/diamondcupboardside", Side.SOUTH)
+                        .setTex(0, MOD_ID+":block/diamondcupboardside", Side.EAST)
+                        .setTex(0, MOD_ID+":block/diamondcupboardside", Side.WEST)
+
+        );
+        ModelHelper.setBlockModel(ModBlocks.steelCupboard,() ->
+                new BlockModelHorizontalRotation<>(ModBlocks.steelCupboard)
+                        .setTex(0, MOD_ID+":block/steelcupboardside", Side.TOP)
+                        .setTex(0, MOD_ID+":block/steelcupboardside", Side.BOTTOM)
+                        .setTex(0, MOD_ID+":block/steelcupboardfront", Side.NORTH)
+                        .setTex(0, MOD_ID+":block/steelcupboardside", Side.SOUTH)
+                        .setTex(0, MOD_ID+":block/steelcupboardside", Side.EAST)
+                        .setTex(0, MOD_ID+":block/steelcupboardside", Side.WEST)
+
+        );
     }
 
     @Override
