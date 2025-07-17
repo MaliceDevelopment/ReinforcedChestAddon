@@ -1,5 +1,6 @@
 package midford.reinforcedchest.api.BTWaila;
 
+import midford.reinforcedchest.tileEntities.TileEntityCrystalChest;
 import midford.reinforcedchest.tileEntities.TileEntityReinforcedChest;
 
 import net.minecraft.core.player.inventory.container.Container;
@@ -13,6 +14,7 @@ public class WailaPlugin implements BTWailaCustomTooltipPlugin {
     @Override
     public void initializePlugin(TooltipRegistry tooltipRegistry, Logger logger) {
         TileTooltip<Container> inventory = BTWailaPlugin.INVENTORY;
+        inventory.addClass(TileEntityCrystalChest.class);
         inventory.addClass(TileEntityReinforcedChest.class);
     }
 }

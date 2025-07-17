@@ -3,8 +3,8 @@
   "id": "reinforcedchest",
   "version": "$version",
 
-  "name": "Midford's Reinforced Chest",
-  "description": "Simple expanded chest mod for a simple expanded chests mod.",
+  "name": "Midford's Extended Chests",
+  "description": "Simple expanded chests mod for a simple expanded chests mod.",
   "authors": [
     "Midford, Useless"
   ],
@@ -47,7 +47,8 @@
     "fabricloader": ">=0.13.3",
     "halplibe": ">=5.2.4",
     "minecraft": ">=7.3.3",
-    "ironchest": "*"
+    "ironchest": "*",
+    "signalindustries": "*"
   },
   "suggests": {
     "btwaila": ">=1.0.1"

@@ -1,4 +1,6 @@
-tile.reinforcedchest.chest.steel.desc=An extremely large chest.
-tile.reinforcedchest.chest.reinforced.name=Reinforced Crystal Alloy Chest
-tile.reinforcedchest.chest.reinforced.desc=Fat by Weird Al Yankovic starts playing.
-container.reinforcedchest.reinforcedChest.name=Reinforced Crystal Alloy Chest
+tile.extendedchests.chest.reinforced.name=Reinforced Crystal Alloy Chest
+tile.extendedchests.chest.reinforced.desc=Fat by Weird Al Yankovic.
+container.extendedchests.reinforcedChest.name=Reinforced Crystal Alloy Chest
+container.extendedchests.crystalChest.name=Crystal Alloy Chest
+tile.extendedchests.chest.crystal.name=Crystal Alloy Chest
+tile.extendedchests.chest.crystal.desc=Cheaper To Mass Produce!

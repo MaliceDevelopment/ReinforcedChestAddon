@@ -1,5 +1,6 @@
 package midford.reinforcedchest;
 
+import midford.reinforcedchest.tileEntities.TileEntityCrystalChest;
 import midford.reinforcedchest.tileEntities.TileEntityReinforcedChest;
 import net.brokenmoon.afloydironchest.tileEntities.*;
 import net.minecraft.core.util.HardIllegalArgumentException;
@@ -15,13 +16,14 @@ import java.util.Properties;
 
 
 public class IronChestMain implements GameStartEntrypoint {
-    public static final String MOD_ID = "reinforcedchest";
+    public static final String MOD_ID = "extendedchests";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     public static final ConfigHandler config;
     static {
         // Config
         Properties prop = new Properties();
         prop.setProperty("ids.reinforcedChestID","2504");
+        prop.setProperty("ids.crystalChestID","2505");
         prop.setProperty("ids.reinforcedWindowID","22");
         config = new ConfigHandler(MOD_ID, prop);
     }
@@ -41,6 +43,7 @@ public class IronChestMain implements GameStartEntrypoint {
     public void afterGameStart() {
         try {
             EntityHelper.createTileEntity(TileEntityReinforcedChest.class, NamespaceID.getPermanent(MOD_ID+":reinforced_chest"));
+            EntityHelper.createTileEntity(TileEntityCrystalChest.class, NamespaceID.getPermanent(MOD_ID+":crystal_chest"));
         } catch (HardIllegalArgumentException e) {
             throw new RuntimeException(e);
         }
