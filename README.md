@@ -1,2 +1,2 @@
-# bta-ironchests
- Iron chest for bta, updated version of Astoria's Iron Chests
+# Extended Chests (BTA!)
+ Addon for Astoria's Iron Chests, adding compat with Signal Industries.
