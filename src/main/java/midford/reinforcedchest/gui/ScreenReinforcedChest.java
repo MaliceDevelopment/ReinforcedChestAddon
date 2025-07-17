@@ -21,7 +21,7 @@ public class ScreenReinforcedChest extends ScreenContainerAbstract {
         GL11.glColor4f(1.0f, 1.0f, 1.0f, 1.0f);
         int x = (this.width - this.xSize) / 2;
         int y = (this.height - this.ySize) / 2;
-        this.mc.textureManager.loadTexture("/assets/reinforcedchest/textures/gui/containerExtraWide.png").bind();
+        this.mc.textureManager.loadTexture("/assets/extendedchests/textures/gui/containerExtraWide.png").bind();
         this.drawTexturedModalRect(x, y, 0, 0, 512, this.ySize, 1/512d, 1/256d);
     }
 }

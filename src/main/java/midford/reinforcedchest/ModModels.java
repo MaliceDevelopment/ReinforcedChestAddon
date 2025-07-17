@@ -18,22 +18,22 @@ public class ModModels implements ModelEntrypoint {
         // THIS IS ACCESSING TEXTURES FROM THE IRON CHEST MOD, REMEMBER TO CHANGE THE MOD ID IF YOU ADD CUSTOM BLOCK TEXTURES
         ModelHelper.setBlockModel(ModBlocks.reinforcedChest,() ->
                 new BlockModelHorizontalRotation<>(ModBlocks.reinforcedChest)
-                        .setTex(0, "ironchest:block/diamondchesttop", Side.TOP)
-                        .setTex(0, "ironchest:block/steelchestbottom", Side.BOTTOM)
-                        .setTex(0, "ironchest:block/steelchestfront", Side.NORTH)
-                        .setTex(0, "ironchest:block/steelchestside", Side.SOUTH)
-                        .setTex(0, "ironchest:block/steelchestside", Side.EAST)
-                        .setTex(0, "ironchest:block/steelchestside", Side.WEST)
+                        .setTex(0, "extendedchests:block/reinforcedchesttop", Side.TOP)
+                        .setTex(0, "extendedchests:block/reinforcedchestbottom", Side.BOTTOM)
+                        .setTex(0, "extendedchests:block/reinforcedchestfront", Side.NORTH)
+                        .setTex(0, "extendedchests:block/reinforcedchestside", Side.SOUTH)
+                        .setTex(0, "extendedchests:block/reinforcedchestside", Side.EAST)
+                        .setTex(0, "extendedchests:block/reinforcedchestside", Side.WEST)
 
         );
         ModelHelper.setBlockModel(ModBlocks.crystalChest,() ->
                 new BlockModelHorizontalRotation<>(ModBlocks.crystalChest)
-                        .setTex(0, "ironchest:block/ironchesttop", Side.TOP)
-                        .setTex(0, "ironchest:block/steelchestbottom", Side.BOTTOM)
-                        .setTex(0, "ironchest:block/steelchestfront", Side.NORTH)
-                        .setTex(0, "ironchest:block/steelchestside", Side.SOUTH)
-                        .setTex(0, "ironchest:block/steelchestside", Side.EAST)
-                        .setTex(0, "ironchest:block/steelchestside", Side.WEST)
+                        .setTex(0, "extendedchests:block/crystalchesttop", Side.TOP)
+                        .setTex(0, "extendedchests:block/crystalchestbottom", Side.BOTTOM)
+                        .setTex(0, "extendedchests:block/crystalchestfront", Side.NORTH)
+                        .setTex(0, "extendedchests:block/crystalchestside", Side.SOUTH)
+                        .setTex(0, "extendedchests:block/crystalchestside", Side.EAST)
+                        .setTex(0, "extendedchests:block/crystalchestside", Side.WEST)
 
         );
     }
