@@ -40,7 +40,7 @@
     ]
   },
   "mixins": [
-    "reinforcedchest.mixins.json"
+    "extendedchests.mixins.json"
   ],
 
   "depends": {
