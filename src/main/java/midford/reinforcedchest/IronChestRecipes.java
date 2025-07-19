@@ -15,7 +15,7 @@ public class IronChestRecipes implements RecipeEntrypoint {
                         "AAA")
                 .addInput('A', SIItems.crystalAlloyIngot)
                 .addInput('B', "minecraft:chests")
-                .create("iron_chest", ModBlocks.reinforcedChest.getDefaultStack());
+                .create("iron_chest", ModBlocks.crystalChest.getDefaultStack());
 
         RecipeBuilder.Shaped(IronChestMain.MOD_ID)
                 .setShape(
