@@ -1,6 +1,5 @@
 package midford.reinforcedchest;
 
-import net.minecraft.core.item.Items;
 import sunsetsatellite.signalindustries.SIItems;
 import turniplabs.halplibe.helper.RecipeBuilder;
 import turniplabs.halplibe.util.RecipeEntrypoint;
