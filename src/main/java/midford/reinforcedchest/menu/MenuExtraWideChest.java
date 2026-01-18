@@ -24,7 +24,7 @@ public class MenuExtraWideChest extends MenuAbstract {
         //Lower
         for (int k = 0; k < 3; ++k) {
             for (int j1 = 0; j1 < 9; ++j1) {
-                this.addSlot(new Slot(lowerInventory, j1 + k * 9 + 9, 161 + j1 * 18, 174 + k * 18));
+                this.addSlot(new Slot(lowerInventory, j1 + k * 9 + 9, 161 + j1 * 18, 173 + k * 18));
             }
         }
         //Taskbar
