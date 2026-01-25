@@ -37,6 +37,9 @@
     ],
     "btwaila": [
       "midford.reinforcedchest.api.BTWaila.WailaPlugin"
+    ],
+    "gatherTMBPlugins":[
+      "midford.reinforcedchest.api.TooManyBlocks.TooManyBlocksPlugin"
     ]
   },
   "mixins": [

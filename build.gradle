@@ -96,6 +96,8 @@ dependencies {
 	modImplementation("useless:btwaila:1.2.1-7.3_01")
 
 	modImplementation files("/lib/afloydironchest-2.4.1-7.3_04.jar")
+    modImplementation files("/lib/tmb-2.0.0-7.3_04.jar")
+
 
 
 	implementation "org.slf4j:slf4j-api:1.8.0-beta4"
